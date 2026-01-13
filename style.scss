@@ -128,12 +128,34 @@ section
                 width: 80%;
                 color: rgba(116, 116, 116, 1);
                 font-size: 24px;
-                font-family: ;
             }
         }
         .imgKampir
         {
             width: 50%;
+        }
+    }
+    .box3
+    {
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        .inBox1
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            .aaa
+            {
+                display: flex;
+                align-items: start;
+                gap: 10px;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                }
+            }
         }
     }
 }

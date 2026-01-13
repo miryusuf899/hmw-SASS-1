@@ -125,6 +125,26 @@ section .box2 div p {
 section .box2 .imgKampir {
   width: 50%;
 }
+section .box3 {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+section .box3 .inBox1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+section .box3 .inBox1 .aaa {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+section .box3 .inBox1 .aaa div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
 
 @media (max-width: 510px) {
   header {
