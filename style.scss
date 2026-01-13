@@ -105,6 +105,38 @@ header
 {
     display: none;
 }
+section
+{
+    max-width: 1200px;
+    margin: auto;
+    .box2
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 40px;
+            h1{
+                font-size: 48px;
+                font-weight: 100;
+            }
+            p
+            {
+                width: 80%;
+                color: rgba(116, 116, 116, 1);
+                font-size: 24px;
+                font-family: ;
+            }
+        }
+        .imgKampir
+        {
+            width: 50%;
+        }
+    }
+}
 
 
 
