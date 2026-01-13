@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  max-width: 1400px;
+  margin: auto;
+}
+header .navbar {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .navbar .div1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .navbar .div1 h2 {
+  font-size: 30px;
+  color: rgb(68, 124, 42);
+  font-family: monospace;
+  font-weight: 700;
+}
+header .navbar .div1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .navbar .div2 {
+  display: flex;
+  gap: 50px;
+  font-size: 22px;
+}
+header .navbar .div3 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header .navbar .div3 p {
+  font-size: 14px;
+  color: rgba(30, 30, 30, 0.62);
+}
+header .navbar .div3 h3 {
+  font-weight: 500;
+}
+header .navbar .div3 button {
+  padding: 25px 60px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(to right, green, rgba(0, 128, 0, 0.632), green);
+}
+
+@media (max-width: 510px) 
+{
+    .daraxt
+    {
+        width: 53px;
+        height: 31px;
+    }
+    header .navbar .div1 h2
+    {
+        font-size: 20px;
+    }
+    header .navbar .div1 p
+    {
+        font-size: 10px;
+    }
+    header .navbar .imges
+    {
+        display: flex;
+        gap: 10px;
+    }
+    header .navbar .div2 {
+  display: none;
+}
+    header .navbar .div3 {
+  display: none;
+}
+  .navbar
+  {
+    width: 90%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
