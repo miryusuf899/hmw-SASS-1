@@ -60,13 +60,133 @@ header
     }
     .backImage1
     {
-        background: url();
+        width: 100%;
+        height: 751px;
+        background: url(./Image-00.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 100px;
+        color: white;
+        .box1
+        {
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+            padding: 100px;
+            h1{
+                font-size: 55px;
+            }
+            p{
+                font-size: 30px;
+            }
+            .savzako
+            {
+                margin-top: 250px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 250px;
+                p{
+                    font-size: 24px;
+                }
+                div{
+                    display: flex;
+                    align-items: start;
+                    gap: 20px;
+                }
+            }
+        }
     }
 }
-@media (max-width:510px)
+.imgTele
 {
-    .div2
+    display: none;
+}
+.imgMenu
+{
+    display: none;
+}
+
+
+
+
+@media (max-width: 510px) 
+{
+    header
     {
-        display: none;
+        width: 90%;
+        margin: auto;
+        .backImage1
+        {
+            width: 100%;
+            height: 529px;
+            background: url(./Image-00\ \(1\).png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 30px;
+            color: white;
+            .box1
+            {
+                display: flex;
+                flex-direction: column;
+                padding: 30px;
+                row-gap: 10px;
+                h1{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 15px;
+                }
+                .savzako
+                {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 190px;
+                    row-gap: 20px;
+                    p{
+                        font-size: 16px;
+                    }
+                    div{
+
+                    }
+                }
+            }
+        }
+        .imgTele
+        {
+            display: block;
+        }
+        .imgMenu
+        {
+            display: block;
+        }
     }
+    .daraxt
+    {
+        width: 53px;
+        height: 31px;
+    }
+    header .navbar .div1 h2
+    {
+        font-size: 20px;
+    }
+    header .navbar .div1 p
+    {
+        font-size: 10px;
+    }
+    header .navbar .imges
+    {
+        display: flex;
+        gap: 20px;
+    }
+    header .navbar .div2 {
+  display: none;
+}
+    header .navbar .div3 {
+  display: none;
+}
+  .navbar
+  {
+    width: 90%;
+    margin: auto;
+  }
 }

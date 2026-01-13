@@ -54,35 +54,112 @@ header .navbar .div3 button {
   border-radius: 40px;
   background: linear-gradient(to right, green, rgba(0, 128, 0, 0.632), green);
 }
+header .backImage1 {
+  width: 100%;
+  height: 751px;
+  background: url(./Image-00.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  color: white;
+}
+header .backImage1 .box1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 100px;
+}
+header .backImage1 .box1 h1 {
+  font-size: 55px;
+}
+header .backImage1 .box1 p {
+  font-size: 30px;
+}
+header .backImage1 .box1 .savzako {
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+}
+header .backImage1 .box1 .savzako p {
+  font-size: 24px;
+}
+header .backImage1 .box1 .savzako div {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
 
-@media (max-width: 510px) 
-{
-    .daraxt
-    {
-        width: 53px;
-        height: 31px;
-    }
-    header .navbar .div1 h2
-    {
-        font-size: 20px;
-    }
-    header .navbar .div1 p
-    {
-        font-size: 10px;
-    }
-    header .navbar .imges
-    {
-        display: flex;
-        gap: 10px;
-    }
-    header .navbar .div2 {
+.imgTele {
   display: none;
 }
-    header .navbar .div3 {
+
+.imgMenu {
   display: none;
 }
-  .navbar
-  {
+
+@media (max-width: 510px) {
+  header {
+    width: 90%;
+    margin: auto;
+  }
+  header .backImage1 {
+    width: 100%;
+    height: 529px;
+    background: url(./Image-00\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    color: white;
+  }
+  header .backImage1 .box1 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    row-gap: 10px;
+  }
+  header .backImage1 .box1 h1 {
+    font-size: 20px;
+  }
+  header .backImage1 .box1 p {
+    font-size: 15px;
+  }
+  header .backImage1 .box1 .savzako {
+    display: flex;
+    flex-direction: column;
+    margin-top: 190px;
+    row-gap: 20px;
+  }
+  header .backImage1 .box1 .savzako p {
+    font-size: 16px;
+  }
+  header .imgTele {
+    display: block;
+  }
+  header .imgMenu {
+    display: block;
+  }
+  .daraxt {
+    width: 53px;
+    height: 31px;
+  }
+  header .navbar .div1 h2 {
+    font-size: 20px;
+  }
+  header .navbar .div1 p {
+    font-size: 10px;
+  }
+  header .navbar .imges {
+    display: flex;
+    gap: 20px;
+  }
+  header .navbar .div2 {
+    display: none;
+  }
+  header .navbar .div3 {
+    display: none;
+  }
+  .navbar {
     width: 90%;
     margin: auto;
   }
