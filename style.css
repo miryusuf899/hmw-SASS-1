@@ -334,7 +334,7 @@ section .box6 .odam1 {
     width: 90%;
   }
   section .box5 .cardkampir button {
-    width: 50%;
+    padding: 10px 30px;
   }
   section .box6 {
     flex-direction: column;
