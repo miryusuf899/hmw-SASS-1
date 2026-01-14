@@ -158,6 +158,48 @@ section
             }
         }
     }
+    .headero
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        button{
+                padding: 25px 60px;
+                color: white;
+                font-size: 18px;
+                border: none;
+                border-radius: 40px;
+                background: linear-gradient( to right, green,rgba(0, 128, 0, 0.632),green);
+            }
+    }
+    .box4
+    {
+        display: flex;
+        justify-content: space-between;
+        .img1{
+            width: 300px;
+        }
+        .img2
+        {
+            width: 550px;
+            border-radius: 20px;
+        }
+    }
+    .backVideo1
+    {
+        width: 100%;
+        height: 600px;
+        background: url(./Видео.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50pxfeef;
+    }
 }
 
 
