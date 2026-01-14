@@ -333,6 +333,9 @@ section .box6 .odam1 {
   section .box5 .cardkampir .img3 {
     width: 90%;
   }
+  section .box5 .cardkampir button {
+    width: 50%;
+  }
   section .box6 {
     flex-direction: column;
   }
