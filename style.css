@@ -334,7 +334,10 @@ section .box6 .odam1 {
     width: 90%;
   }
   section .box5 .cardkampir button {
-    padding: 10px 30px;
+    display: none;
+  }
+  section .box5 .cardkampir .comfort {
+    width: 100%;
   }
   section .box6 {
     flex-direction: column;
