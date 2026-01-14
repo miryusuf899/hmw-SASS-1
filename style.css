@@ -297,6 +297,45 @@ section .box6 .odam1 {
 }
 
 @media (max-width: 510px) {
+  section {
+    width: 90%;
+    margin: auto;
+  }
+  section .box2 {
+    flex-direction: column;
+  }
+  section .box2 div {
+    width: 100%;
+  }
+  section .box2 .img4 {
+    width: 100%;
+  }
+  section .box3 {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  section .box3 .imgKampir {
+    width: 100%;
+  }
+  section .headero button {
+    display: none;
+  }
+  section .box4 {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  section .box4 .img4 {
+    width: 100%;
+  }
+  section .box5 .cardkampir {
+    flex-direction: column;
+  }
+  section .box5 .cardkampir .img3 {
+    width: 90%;
+  }
+  section .box6 {
+    flex-direction: column;
+  }
   header {
     width: 90%;
     margin: auto;

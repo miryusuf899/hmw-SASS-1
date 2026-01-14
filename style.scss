@@ -329,6 +329,60 @@ section
 
 @media (max-width: 510px) 
 {
+    section
+    {
+        width: 90%;
+        margin: auto;
+        .box2
+        {
+            flex-direction: column;
+            div{
+                width: 100%;
+            }
+            .img4
+            {
+                width: 100%;
+            }
+        }
+        .box3{
+            flex-direction: column;
+            row-gap: 40px;
+            .imgKampir
+            {
+                width: 100%;
+            }
+        }
+        .headero
+        {
+            button{
+                display: none;
+            }
+        }
+        .box4
+        {
+            flex-direction: column;
+            row-gap: 30px;
+            .img4
+            {
+                width: 100%;
+            }
+        }
+        .box5
+        {
+            .cardkampir
+            {
+                flex-direction: column;
+                .img3
+                {
+                    width: 90%;
+                }
+            }
+        }
+        .box6
+        {
+            flex-direction: column;
+        }
+    }
     header
     {
         width: 90%;
