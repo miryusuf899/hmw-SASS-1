@@ -297,6 +297,30 @@ section
         }
     }
 }
+.box6
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    .odam
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .odam1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: relative;
+        bottom: 70px;
+    }
+}
 
 }
 
